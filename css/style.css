@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
