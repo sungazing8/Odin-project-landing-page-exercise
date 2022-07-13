@@ -17,6 +17,8 @@ nav {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     font-weight: 600;
 }
@@ -24,24 +26,29 @@ body {
 a {
     color: white;
     text-decoration: none;
-    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.top-container {
+.flex-container-1 {
     display: flex;
-    background-color: #1f2937;
-    height: 400px;
-    align-items: center;
+    flex-direction: row;
+    background-color: antiquewhite;
+    justify-content: center;
 }
 
-p {
-    display: flex;
+.item {
+    height: 300px;
+    width: auto;
+    flex-grow: 1;
+    background-color: #1f2937 ;
+    margin: 10;
     color: white;
-    font-size: 48px;
-    font-weight: bold;
-}
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 
-.left-container {
-    display: flex;
-    
 }
