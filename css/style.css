@@ -80,4 +80,46 @@ button{
     border: none;
 }
 
+.header-2 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 28px;
+}
 
+.flex-container-2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.top-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.box {
+    margin-top: 20px;
+    width: 125px;
+    height: 125px;
+    border: 2px solid #3882f6;
+    background: transparent;
+    border-radius: 6px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.flex-container-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 125px;
+    margin-left: 28px;
+    margin-right: 28px;
+    justify-items: center;
+    
+}
