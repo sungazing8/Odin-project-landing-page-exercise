@@ -130,17 +130,80 @@ button{
 .flex-container-4 {
     display: flex;
     background-color: #e5e7eb;
-    height: 200px;
+    height: 250px;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .inspirational-quote {
     width: 500px;
     justify-items: space-between;
+    font-size: 26px;
+    color: #1F2937;
   
 }
 
-quote-sig {
+.quote-sig {
+    padding-left: 250px;
+}
+
+.flex-container-5 {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box-left {
+    display: flex;
+    width: 600px;
+    height: 100px;
+    background-color: #3882f6 ;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    justify-content: center;
+    flex-direction: column;
     
+}
+
+.bbl-top {
+    color: #e5e7eb;
+    padding-left: 70px;
+    font-weight: 900;
+}
+
+.bbl-bottom {
+    color: #e5e7eb;
+    padding-left: 70px;
+    font-weight: 100;  
+}
+
+.blue-box-right {
+    display: flex;
+    width: 180px;
+    height: 100px;
+    background-color: #3882f6 ;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sign-up-2 {
+    border: 2px solid white;
+    width: 90px;
+    justify-self: end;
+    /* padding-left: -100px; */
+}
+
+.footer {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
 }
