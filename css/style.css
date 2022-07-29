@@ -194,7 +194,7 @@ button{
     border: 2px solid white;
     width: 90px;
     justify-self: end;
-    /* padding-left: -100px; */
+
 }
 
 .footer {
@@ -206,4 +206,8 @@ button{
     justify-content: center;
     align-items: center;
     font-size: small;
+}
+
+img {
+    border-radius: 8px;
 }
